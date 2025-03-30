@@ -7,7 +7,7 @@ function Header() {
     // <header className="header"><img  src={logo} alt="Header" width="60px" height="60px"/>React Tutorial</header>
     <header >
       <img  src={reactlogo} alt="logo" />
-      <h1>React Tutorial</h1>
+      <span className="header-span">React Tutorial</span>
       <nav>
         <ul className="nav-list">
           <li  className="nav-list-item">Pricing</li>
